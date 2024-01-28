@@ -2,3 +2,14 @@ name: ExamplePlugin
 version: '${project.version}'
 main: pl.moderr.exampleplugin.ExamplePlugin
 api-version: '1.20'
+description: Plugin desription
+load: POSTWORLD
+authors:
+  - MODERR
+website: exampleplugin.com
+prefix: EXAMPLE
+
+commands:
+  example:
+    description: Example command
+    aliases: ["examplecommand", "exmpl"]
